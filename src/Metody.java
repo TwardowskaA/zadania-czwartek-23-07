@@ -26,12 +26,12 @@ public class Metody {
 
     }
 
-    public static int tab2( int[] tab, int x) {
+    public static int tab2(int[] tab, int x) {
         int suma = 0;
 
         for (int i = 0; i < tab.length; i++) {
-            if(tab[i] == x)
-            suma = suma + x;
+            if (tab[i] == x)
+                suma++;
         }
 
         return suma;
